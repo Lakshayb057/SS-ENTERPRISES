@@ -3,323 +3,303 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SS Enterprises - We Deliver Services</title>
-    <style>
-        .table1{border-color: aliceblue;height: 60px;margin-left:15%;}
-        .table2{width:80%;margin-left: 11%;}
-        .td1{width: 100px;text-align: center;color: black;}
-        .td1:hover{background-color:grey;}
-        .td2{padding: 30px;}
-        .heading1{text-align: center;font-size: 30px;text-decoration: underline gold;color: #56565b;}
-        .heading2{font-size: 22px;}
-        .img5{opacity: 0.9;height: 300px;width: 250px;}
-        .img5:hover {opacity: 1;transform: scale(1);transition:cubic-bezier();border-radius: 13%;}
-        .img6{opacity: 0.9;}
-        .img6:hover {opacity: 1;transform: scale(1);transition:cubic-bezier();}
-        .logo2345{opacity: 0.9;}
-        .logo2345:hover{opacity: 1;transform: scale(1.1);transition:cubic-bezier();}
-        .p0{color:#56565b;font-size: 18px;line-height: 1.25;}
-        .p1{color:#56565b;font-size: 18px;line-height: 1.25;text-align: justify;}
-        .c{color: black;font-family: "yu gothic";text-decoration: solid;font-weight:bolder;}
-        .dropbtn {background-color:white;color: black;padding: 10px;font-size: 14px;border: none;cursor: pointer;height: 100px;width:fit-content;font-weight: bold;}
-        .dropbtn:hover{background-color: gold;}
-        .dropdown-content {display: none;position: absolute;background-color: #f9f9f9;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
-        .dropdown-content a {color: black;padding: 12px 16px;text-decoration: none;display: block;text-align: left;}
-        .dropdown-content a:hover {background-color:black;color: gold;}
-        .dropdown:hover .dropdown-content {display: block;}
-        .navbar {position: fixed;top: 0;left: 0;background-color: white;width: 100%;padding: 10px 0;color: #fff;text-align: center;z-index: 1000;}
-        .x{background-color:#f2f3fa;}
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
 </head>
-<body>
-    <nav class="navbar" id="navbar">
-    <table border="0" class="table1">
-        <tr>
-            <td>
-                <img src="https://i.ibb.co/ykM2vrX/LOGO-removebg-preview.png" height="100px" width="140px"/>
-            </td>
-            <td style="width: 150px;"></td>
-            <td>
-                <div class="dropdown">
-                    <button class="dropbtn">
-                        <a class="c" href="index.html">HOME</a>
-                    </button>
+<body class="m-0">
+    <nav id="navbar" class="flex justify-between items-center fixed top-0 w-full h-25 pb-1.5 z-10 bg-white transition-colors duration-1000 ease-in-out">
+        <div class="flex self-center mt-5 xl:ml-10 md:mt-5" id="logo">
+            <p class="text-6xl text-yellow-300 ml-5 s-custom-stroke" style="font-family:Jeju Myungjo,serif;" id="s">S</p>
+            <p class="text-6xl text-zinc-600 S-custom-stroke" style="font-family:Jeju Myungjo,serif;">S</p>
+            <p class="text-4xl text-zinc-600 S-custom-stroke mt-4" style="font-family:Jeju Myungjo,serif;">Enterprises</p>
+        </div>
+        <div>
+            <img class="w-[80px] mt-9 pr-5 md:hidden" src="https://i.ibb.co/gb7GyZhb/Screenshot-2025-02-09-160007-removebg-preview.png" id="threebar" alt="Menu"/>
+        </div>
+        <div class="hidden flex flex-col transition-all top-0 w-full ml-12 mr-12 items-left bg-zinc-300 font-bold rounded-b-3xl duration-800 ease-out shadow-lg" id="links">
+            <img class="mt-70 ml-20 w-10 float-right mb-5 cursor-pointer" src="https://i.ibb.co/7tDzNZGt/cross.png" id="back" alt="Close"/>
+            <a href="#" class="text-2xl text-zinc-700 pt-5 pl-20 pr-15 ">About</a>
+            <a href="#" class="text-2xl text-zinc-700 pt-5 pl-20 pr-15">Industry</a>
+            <a href="#" class="text-2xl text-zinc-700 pt-5 pl-20 pr-15">Services</a>
+            <a href="#" class="text-2xl text-zinc-700 pt-5 pl-20 pr-15 pb-10">Contact Us</a>
+        </div>
+        <div class="hidden mt-1 md:flex text-3xl">
+            <a href="#" class="decoration-0 text-black content-center mr-5 p-3 hover:p-6 hover:text-amber-300 hover:bg-gray-600 md:mt-4">About</a>
+            <a href="#" class="decoration-0 text-black content-center mr-5 p-3 hover:p-6 hover:text-amber-300 hover:bg-gray-600 md:mt-4">Industry</a>
+            <a href="#" class="decoration-0 text-black content-center p-3 hover:p-6 hover:text-amber-300 hover:bg-gray-600 md:mt-4">Services</a>
+            <a href="#"><img class="w-42 xl:mr-15  hover:p-1.5 hover:text-amber-300 hover:bg-gray-600" src="https://i.ibb.co/TBVHfRPZ/Screenshot-2025-02-09-161227-removebg-preview.png" alt="Logo"/></a>
+        </div> 
+    </nav>
+    <div class="pt-24">
+        <div class="grid grid-cols-1 md:grid-cols-1">
+            <div class="relative">
+                <picture id="image">
+                    <source srcset="https://i.ibb.co/nq4KhYfg/Cream-and-Brown-Photographic-Beauty-Site-Launch-Website.png" media="(min-width: 768px)">
+                    <img src="https://i.ibb.co/6R95VMbF/Cream-and-Brown-Photographic-Beauty-Site-Launch-Website-1.png" alt="Responsive Image" class="w-full h-auto object-cover">
+                </picture>
+                <div class="absolute z-10 left-0 h-41 md:h-80 w-10 md:w-15 bg-zinc-400 rounded-r-xl fixed top-30 md:top-60">
+                    <img class="h-7 md:h-11 justify-self-center mt-1 md:mt-4 transition duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:shadow-lg" src="https://i.ibb.co/svnfBM4T/telephone.png" alt="Phone"/>
+                    <img class="h-7 md:h-11 justify-self-center mt-1 md:mt-4 transition duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:shadow-lg" src="https://i.ibb.co/1fptd6hk/email-1.png" alt="Email"/>
+                    <img class="h-7 md:h-11 justify-self-center mt-1 md:mt-4 transition duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:shadow-lg" src="https://i.ibb.co/Z657R2TP/linkedin.png" alt="LinkedIn"/>
+                    <img class="h-7 md:h-11 justify-self-center mt-1 md:mt-4 transition duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:shadow-lg" src="https://i.ibb.co/Kxgdt2jj/whatsapp.png" alt="WhatsApp"/>
+                    <img class="h-7 md:h-11 justify-self-center mt-1 md:mt-4 transition duration-300 ease-in-out hover:scale-105 hover:translate-x-2 hover:shadow-lg" src="https://i.ibb.co/qG58WH7/instagram.png" alt="Instagram"/>
                 </div>
-            </td>
-            <td>
-                <div class="dropdown">
-                    <button class="dropbtn">ABOUT</button>
-                    <div class="dropdown-content">
-                        <a href="#">ABOUT</a>
-                        <a href="#">MISSION AND VISSION</a>
-                        <a href="#">WHY SS ENTERPRISES</a>
-                        <a href="#">CORE VALUES</a>
-                        <a href="#">OUR PARTNER</a>
-                        <a href="#">SS ENTERPRISES OVERVIEW</a>
-                        <a href="#">LEADERSHIP TEAM</a>
-                        <a href="#">VIRTUAL TOUR</a>
-                    </div>
+                <div class="absolute right-0 z-10 h-40 md:h-80 w-10 md:w-15 bg-gray-900 rounded-l-2xl fixed top-30 md:top-60">
+                    <p class="rotate-90 text-yellow-300 font-bold mt-14 md:text-3xl md:mt-27">welcome</p>
                 </div>
-            </td>
-            <td>
-                <div class="dropdown">
-                    <button class="dropbtn">INDUSTRY</button>
-                    <div class="dropdown-content">
-                        <a href="#">INDUSTRY</a>
-                        <a href="#">DTH</a>
-                        <a href="#">AUTOMOTIVE</a>
-                        <a href="#">BANKING AND FINANCE SERVICES</a>
-                        <a href="#">E-COMMERCE</a>
-                        <a href="#">FMCG</a>
-                        <a href="#">HEALTHCARE</a>
-                        <a href="#">INSURANCE</a>
-                        <a href="#">RETAIL</a>
-                        <a href="#">STARTUPS</a>
-                        <a href="#">IT/ITES</a>
-                        <a href="#">TELECOMMUNICATIONS</a>
-                        <a href="#">TRAVEL AND HOSPITALITY</a>
-                        <a href="#">UTILITY</a>            
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="dropdown">
-                    <button class="dropbtn">SERVICES</button>
-                    <div class="dropdown-content">
-                        <a href="#">SERVICES</a>
-                        <a href="#">WORK FROM HOME</a>
-                        <a href="#">CUSTOMER LIFE CYCLE MANAGEMENT</a>
-                        <a href="#">INBOUND SERVICES</a>
-                        <a href="#">OUTBOUND SERVICES</a>
-                        <a href="#">CHAT AND EMAIL</a>
-                        <a href="#">BACK OFFICE SERVICES</a>
-                        <a href="#">MARKET RESEARCH</a>
-                        <a href="#">TECH SUPPORT SERVICES</a>
-                        <a href="#">FINANCE AND ACCOUNITING</a>
-                        <a href="#">IT STAFFING</a>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="dropdown">
-                    <button class="dropbtn">CAREERS</button>
-                    <div class="dropdown-content">
-                        <a href="#">CAREERS</a>
-                        <a href="#">SUCCESSSUCCESS STORIES</a>
-                        <a href="#">LIFE @ SS ENTERPRISES</a>
-                        <a href="#">JOBS</a>
-                        <a href="#">EMPLOYEE-VERIFICATION</a>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="dropdown">
-                    <button class="dropbtn">
-                        <a class="c" href="NEWS AND MEDIA.html"> NEWS AND MEDIA  </a>
-                    </button>
-                </div>
-            </td>
-            <td>
-                <div class="dropdown">
-                    <button class="dropbtn">
-                        <a class="c" href="BLOG.html"> BLOG  </a>
-                    </button>
-                </div>
-            </td><td>
-                <div class="dropdown">
-                    <button class="dropbtn">
-                        <a class="c" href="CONTACT US.html"> CONTACT US</a>
-                    </button>
-                </div>
-            </td>
-        </tr>
-    </table>
-</nav>
-    <img style="height: 650px; width: 100%;" src="https://i.ibb.co/T8232Xn/banner1.jpg" name="image1" id="image1" height=500 width=1200/>
-    <table class="table2" border="0">
-        <tr>
-            <td>
-                <p class="heading1">YOUR PARTNER IN GROWTH</p>
-                <p class="p1">As a leading provider of Business services in India, ICCS focuses on creating partnerships which go beyond usual business.
-                    <br>Rather than being just a service provider, we believe in the “partnership approach” and function as your
-                    <br>extended arm to help you achieve your business goals.
+            </div>
+            <div class="shadow-[inset_0px_4px_12px_black] shadow-[0_8px_12px_black] pb-7 pt-7 flex justify-center items-center text-center h-8 md:h-8">
+                <a href="#" class="text-[14px] md:text-[20px] flex">
+                    Home
+                    <p class="pl-5 pr-5">></p>
+                </a>
+                <a href="#" class="text-[14px] md:text-[20px] flex">
+                    Business Transformation
+                    <p class="pl-5 pr-5">></p>
+                </a>
+                <a href="#" class="text-[14px] md:text-[20px] flex">
+                    Blog
+                    <p class="pl-5 pr-5">></p>
+                </a>
+                <a href="#" class="text-[14px] md:text-[20px]">Services</a>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 bg-[#353535] md:grid-cols-2 p-[20px] md:grid-rows-[auto] md:px-20 lg:pl-[180px] lg:pr-[20px]">
+            <div class="w-fit justify-self-center p-5">
+                <p class="bg-[#FFE326] text-center text-2xl px-15 py-2 rounded-[10px] font-medium md:col-start-1 col-end-2 md:text-4xl md:w-160 md:h-15 text-[20px]">
+                    Your Partner In Growth
                 </p>
-            </td>
-            <td>
-                <img src="https://i.ibb.co/3fjhFyJ/img5.png" alt="img5" border="0" class="img5" />
-            </td>
-        </tr>
-    </table>
-    <center>
-        <p class="heading1">WHAT WE OFFER</p>
-        <P class="p0">Apart from our vast experience and strong workforce Business Service in Noida, Delhi, Mumbai & Hyderabad, and other location<br>
-            some of the other reasons to choose ICCS as your Business Service partner include -</P>
-    </center>
-    <table class="table2"  border="0" >
-        <tr>
-            <td rowspan="4">
-                <img src="https://i.ibb.co/QQDpCkp/img6.jpg" alt="img6" border="0" class="img6" />
-            </td>
-        <td class="td2">
-            <img src="https://i.ibb.co/ThZFSGv/logo2.png" alt="logo2" border="0" class="logo2345"/>
-        </td>
-        <td>
-            <p class="heading2">Cost effective Solutions</p>
-            <p class="p1">Servicing a diverse client portfolio, we are competent to create customized, scalable, agile, cost effective solutions.</p>
-        </td>
-        </tr>
-        <tr>
-            <td class="td2">
-                <img src="https://i.ibb.co/j8XGmZ5/logo3.png" alt="logo3" border="0" class="logo2345"/>
-           </td>
-           <td>
-            <p class="heading2">Business Intelligence</p>
-            <p class="p1">We facilitate benefit realization by providing actionable insights to perceive the requirement and bring efficiency.</p>
-           </td>
-        </tr>
-        <tr>
-            <td class="td2">
-                <img src="https://i.ibb.co/d5kBL3V/logo4.png" alt="logo4" border="0" class="logo2345"/>
-            </td>
-            <td>
-                <p class="heading2">Technological Assistance</p>
-                <p class="p1">Championing technological solutions that are inclusive and at par with the global standards to deliver unsurpassed results.</p>
-            </td>
-        </tr>
-        <tr>
-            <td class="td2">
-                <img src="https://i.ibb.co/HXDrgJy/logo5.png" alt="logo5" border="0" class="logo2345"/>
-            </td>
-            <td>
-                <p class="heading2">Industry Experience</p>
-                <p class="p1">Being trusted outsourcing partner with top of the order leadership, we align our people, process and technology to your values.</p>
-            </td>
-        </tr>
-    </table>
-    <div class="x">
-        <br>
-        <center>
-            <p class="heading1">
-                OUR SERVICES
-            </p>
-            <p>
-                We are a one-stop provider of call centers services in India. Our services include
-            </p>
-            </center>
-            <table border="0" class="table2">
-                <tr>
-                    <td>
-                        <img src="https://i.ibb.co/wQ6b7PJ/logo6.png" alt="logo6" border="0" class="logo2345"/>
-                    </td>
-                    <td>
-                        <p class="heading2">Inbound Services</p>
-                        <p class="p1">
-                            Utilizing our expertise in client servicing, ICCS offers 24*7 impeccable inbound customer support to manage complete customer lifecycle from acquisition and assistance to service and engagement across all industries.
-                        </p>
-                    </td>
-                    <td>
-                        <img src="https://i.ibb.co/sRTbjZb/logo7.png" alt="logo7" border="0" class="logo2345"/>
-                    </td>
-                    <td>
-                        <p class="heading2">Outbound Services</p>
-                        <p class="p1">
-                            To help you nurture your existing relationships and to forge new associations with your customers, we provide unmatched outbound call centre support focusing on first-rate interaction, quality engagement and service excellence.
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="https://i.ibb.co/RNMDt3L/logo8.png" alt="logo8" border="0" class="logo2345"/>
-                    </td>
-                    <td>
-                        <p class="heading2">Chat and Email</p>
-                        <p class="p1">
-                            By providing round the clock email and chat support, we boast an omnichannel presence for effective resolution of your customer’s queries and grievances at first point of contact to ensure distinguished value creation.
-                        </p>
-                    </td>
-                    <td>
-                        <img src="https://i.ibb.co/C2Tv68D/logo9.png" alt="logo9" border="0" class="logo2345"/>
-                    </td>
-                    <td>
-                        <p class="heading2">Back office</p>
-                        <p class="p1">
-                            To enhance your business efficiency, we comprehend your business and facilitate a robust structure to your daily transactions with industry followed security protocols to empower you with effective back office solutions.
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="https://i.ibb.co/gS8dVpj/logo10.png" alt="logo10" border="0" class="logo2345"/>
-                    </td>
-                    <td>
-                        <p class="heading2">Market Research</p>
-                        <p class="p1">
-                            Delivering benefits that accrue from perceiving market requirement, ICCS provides customized market research and data analytics solution which unveils detailed statistical insights providing you a competitive edge.
-                        </p>
-                    </td>
-                    <td>
-                        <img src="https://i.ibb.co/f1DVXKt/logo11.png" alt="logo11" border="0" class="logo2345"/>
-                    </td>
-                    <td>
-                        <p class="heading2">IT/ITeS</p>
-                        <p class="p1">
-                            To support your growth, we leverage our technological competency and perpetrate real time tech support with dedicated IT service team to assist on designated processes and craft customized CRM solution basis requirement.
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="https://i.ibb.co/bb7D6vv/logo12.png" alt="logo12" border="0" class="logo2345"/>
-                    </td>
-                    <td>
-                        <p class="heading2">Tech Support</p>
-                        <p class="p1">
-                            With IT enabled functions taking precedence across every industrial sector, we offer expertise in providing appropriate technical assistance for a process to attain operational, financial and technological merit.
-                        </p>
-                    </td>
-                    <td>
-                        <img src="https://i.ibb.co/z6S2NHC/logo13.png" alt="logo13" border="0" class="logo2345"/>
-                    </td>
-                    <td>
-                        <p class="heading2">Finance & Accounting</p>
-                        <p class="p1">
-                            As a leading Business Services provider, we offer an extensive range of client centric finance and accounting solutions to deliver optimized business performance, drive innovation and eliminate inconsistencies.
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="https://i.ibb.co/dtHNzcB/logo14.png" alt="logo14" border="0" class="logo2345"/>
-                    </td>
-                    <td>
-                        <p class="heading2">Staffing</p>
-                        <p class="p1">
-                            We specialize in connecting businesses with top talent. With our extensive network and industry expertise, we streamline the recruitment process, saving you time and money. Find the right candidates efficiently and elevate your workforce with our trusted staffing solutions.
-                        </p>
-                </td>
-                <td>
-                    <img src="https://i.ibb.co/R4vYfVk/logo15.png" alt="logo15" border="0" class="logo2345"/>
-                </td>
-                <td>
-                    <p class="heading2">Cybersecurity</p>
-                    <p class="p1">
-                        Protect your business with our comprehensive cybersecurity services. With our expertise and advanced technologies, rest assured that your digital assets are secure, allowing you to focus on your core objectives with confidence.
-                    </p>
-                </td>
-            </tr>
-        </table>
+            </div>
+            <div class="mt-2 md:col-start-2 md:row-start-1 md:row-end-3 content-center">
+                <img src="https://i.ibb.co/LDz24WzR/Screenshot-2025-02-10-001453.png" class="justify-self-center md:justify-self-auto md:m-10 h-[310px] rounded-3xl md:w-auto md:h-[350px]" alt="Partner in Growth"/>
+            </div>
+            <div class="pb-0">
+                <p class="text-center text-[#FFFFFF] px-5 text-justify py-7 md:hidden" id="smallscreen">
+                    At SS Enterprises, we build lasting success through strong partnerships. As a leading telemarketing provider in India, we go beyond service delivery to become your dedicated growth partner. More than a service provider, we are your strategic ally, committed to exceeding your business goals and unlocking new potential together.
+                </p>
+                <p class="hidden text-justify text-[#FFFFFF] py-5 md:block text-[25px] md:text-[#FFF500] md:text-[13px] lg:text-[21px]" id="fullscreen">
+                    At SS Enterprises, we believe that the foundation of lasting success is built on robust partnerships. As a prominent telemarketing service provider in India, we endeavor to go beyond the conventional boundaries of service delivery, positioning ourselves as your dedicated partner in navigating the pathways to mutual growth and prosperity. SS Enterprises transcends the role of a traditional service provider; we emerge as your strategic collaborator, tirelessly committed to not only meeting but surpassing your business aspirations. Together, we can chart a course toward a vibrant future brimming with potential.
+                </p>
+            </div>
+        </div>
     </div>
+
+    <div class="pt-5 pb-10 grid grid-cols-1 mx-2 md:grid-cols-[100px,200px,150px] md:hidden">
+        <div class="col-start-1 col-end-2">
+            <h1 class="font-bold underline text-3xl text-center">WHAT WE OFFER</h1>
+        </div>
+        <div class="justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFDE00] rounded-3xl">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/M5WnpS2X/handshake.png" alt="handshake" class="w-[150px]" /></a>
+            <h2 class="text-[17px] font-bold">A Commitment to Collaboration</h2>
+            <p class="text-justify py-8 px-10">
+                Through collaboration, we deeply understand your business challenges and goals, crafting telemarketing strategies tailored to your needs. With open communication and mutual engagement, we work alongside you to achieve shared success.
+            </p>
+        </div>
+        <div class="justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFDE00] rounded-3xl">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/RktVjwkV/Adobe-Express-file-3.png" alt="Adobe-Express-file-3" class="w-[200px]" /></a>
+            <h2 class="text-[17px] font-bold">Efficiency Meets Innovation</h2>
+            <p class="text-justify py-8 px-10">
+                At SS Enterprises, we prioritize efficiency and innovation, using cutting-edge technology to optimize telemarketing. Our seamless approach boosts productivity, delivers quality leads quickly, and maximizes value within your budget.
+            </p>
+        </div>
+        <div class="justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFDE00] rounded-3xl">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/6Rb3sptg/Untitled-design-27-removebg-preview.png" alt="Untitled-design-27-removebg-preview" class="w-[200px]" /></a>
+            <h2 class="text-[17px] font-bold">Tailored Telemarketing Solutions</h2>
+            <p class="text-justify py-8 px-10">
+                SS Enterprises provides customized telemarketing services tailored to your market and needs. Leveraging market expertise and client insights, we enhance outreach and build meaningful connections.
+            </p>
+        </div>
+        <div class="justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFDE00] rounded-3xl">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/C3rrZsYt/Adobe-Express-file-4.png" alt="Adobe-Express-file-4" class="w-[200px]" /></a>
+            <h2 class="text-[17px] font-bold">Turning Data into Growth</h2>
+            <p class="text-justify py-8 px-10">
+                We turn complex data into strategic insights, using analytics to reveal market trends, customer behavior, and operational efficiencies. This empowers informed decisions that drive growth and enhance planning.
+            </p>
+        </div>
+        <div class="justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFDE00] rounded-3xl">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/WwGptR7/Adobe-Express-file-5.png" alt="Adobe-Express-file-5" class="w-[200px]"/></a>
+            <h2 class="text-[17px] font-bold">Quality and Reliability</h2>
+            <p class="text-justify py-8 px-10">
+                At SS Enterprises, quality drives everything we do. With industry expertise, skilled teams, and advanced technology, we align with your goals to deliver dependable, high-quality service.
+            </p>
+        </div>
+    </div>
+
+    <div class="hidden md:grid pt-5 pb-10 grid-cols-3 ml-[80px] mx-2 lg:hidden">
+        <div class="md:row-start-1 row-end-4 col-start-3 col-end-4 pt-10">
+            <img src="https://i.ibb.co/TMKHPsMf/what-do-we-have-to-offer.png" alt="what-do-we-have-to-offer" border="0" />
+        </div>
+        <div class="md:row-start-1 row-end-2 col-start-1 col-end-2 justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFDE00] rounded-3xl">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/M5WnpS2X/handshake.png" alt="handshake" class="w-[150px] pt-5" /></a>
+            <h2 class="text-[17px] font-bold text-center pt-5 pb-5">A Commitment to Collaboration</h2>
+            <p class="text-justify py-6 px-10">
+                Through collaboration, we deeply understand your business challenges and goals, crafting telemarketing strategies tailored to your needs. With open communication and mutual engagement, we work alongside you to achieve shared success.
+            </p>
+        </div>
+        <div class="md:row-start-1 row-end-2 col-start-2 col-end-3 justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFDE00] rounded-3xl">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/RktVjwkV/Adobe-Express-file-3.png" alt="Adobe-Express-file-3" class="w-[200px]" /></a>
+            <h2 class="text-[17px] text-center font-bold">Efficiency Meets Innovation</h2>
+            <p class="text-justify py-8 px-10">
+                At SS Enterprises, we prioritize efficiency and innovation, using cutting-edge technology to optimize telemarketing. Our seamless approach boosts productivity, delivers quality leads quickly, and maximizes value within your budget.
+            </p>
+        </div>
+        <div class="md:row-start-2 row-end-3 col-start-1 col-end-3 justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFDE00] rounded-3xl">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/6Rb3sptg/Untitled-design-27-removebg-preview.png" alt="Untitled-design-27-removebg-preview" class="w-[200px]" /></a>
+            <h2 class="text-[17px] font-bold text-center">Tailored Telemarketing Solutions</h2>
+            <p class="text-justify py-8 px-10">
+                SS Enterprises provides customized telemarketing services tailored to your market and needs. Leveraging market expertise and client insights, we enhance outreach and build meaningful connections.
+            </p>
+        </div>
+        <div class="md:row-start-3 row-end-4 col-start-1 col-end-2 justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFDE00] rounded-3xl">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/C3rrZsYt/Adobe-Express-file-4.png" alt="Adobe-Express-file-4" class="w-[200px]" /></a>
+            <h2 class="text-[17px] font-bold text-center">Turning Data into Growth</h2>
+            <p class="text-justify py-8 px-10">
+                We turn complex data into strategic insights, using analytics to reveal market trends, customer behavior, and operational efficiencies. This empowers informed decisions that drive growth and enhance planning.
+            </p>
+        </div>
+        <div class="md:row-start-3 row-end-4 col-start-2 col-end-3 justify-items-center my-10 mx-5 shadow-[8px_8px_12px_#FFDE00] rounded-3xl">
+            <a href="https://imgbb.com/"><img src="https://i.ibb.co/WwGptR7/Adobe-Express-file-5.png" alt="Adobe-Express-file-5" class="w-[200px]"/></a>
+            <h2 class="text-[17px] font-bold text-center">Quality and Reliability</h2>
+            <p class="text-justify py-8 px-10">
+                At SS Enterprises, quality drives everything we do. With industry expertise, skilled teams, and advanced technology, we align with your goals to deliver dependable, high-quality service.
+            </p>
+        </div>
+    </div>
+
+    <div class="bg-[#FFE743] p-10 text-justify">
+        <h1 class="text-[50px] font-semibold pb-5 lg:text-center md:px-20">Our Services</h1>
+        <div class="text-[30px] font-medium pb-10 md:hidden">
+            Welcome to SS Enterprises, your trusted partner for call center services in India, delivering exceptional support, enhanced engagement, and streamlined operations for business success.
+        </div>
+        <div class="hidden md:block px-20 text-[24px] font-medium pb-10">
+            Welcome to SS Enterprises, your trusted partner in comprehensive call center services in India. We are dedicated to delivering exceptional support across various sectors, enhancing customer engagement, streamlining operations, and driving business success.
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div>
+                <img src="https://i.ibb.co/5WZb3Yw5/Untitled-design-17-removebg-preview.png" class="justify-self-center h-50 md:h-30" alt="Inbound Services" />
+                <p class="text-center font-medium text-[25px]">Inbound Services</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/0wXKc7q/Adobe-Express-file-7.png" class="justify-self-center h-50 md:h-30" alt="Chat and Email Support" />
+                <p class="text-center font-medium text-[25px]">Chat and Email Support</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/r2FqC39P/Adobe-Express-file-8.png" class="justify-self-center h-50 md:h-30" alt="Staffing Solutions" />
+                <p class="text-center font-medium text-[25px]">Staffing Solutions</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/9krLFFvD/Adobe-Express-file-9.png" class="justify-self-center h-50 md:h-30" alt="Market Research And Data Analytics" />
+                <p class="text-center font-medium text-[25px]">Market Research And Data Analytics</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/MkTrzZSR/Untitled-design-21-removebg-preview.png" class="justify-self-center h-50 md:h-30" alt="Technical Support" />
+                <p class="text-center font-medium text-[25px]">Technical Support</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/Z6H6GjWg/Untitled-design-22-removebg-preview.png" class="justify-self-center h-50 md:h-30" alt="Outbound Services" />
+                <p class="text-center font-medium text-[25px]">Outbound Services</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/M5nrP795/Untitled-design-26-removebg-preview.png" class="justify-self-center h-50 md:h-30" alt="Back Office Solutions" />
+                <p class="text-center font-medium text-[25px]">Back Office Solutions</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/GfYZVZTV/Untitled-design-23-removebg-preview.png" class="justify-self-center h-50 md:h-30" alt="CyberSecurity Services" />
+                <p class="text-center font-medium text-[25px]">CyberSecurity Services</p>
+            </div>
+            <div>
+                <img src="https://i.ibb.co/HDgJ14cr/Untitled-design-24-removebg-preview.png" class="justify-self-center h-50 md:h-30" alt="Finance And Accounting" />
+                <p class="text-center font-medium text-[25px]">Finance And Accounting</p>
+            </div>
+            <div class="lg:col-start-2 lg:col-end-3">
+                <img src="https://i.ibb.co/FbtTBVD4/Untitled-design-25-removebg-preview.png" class="justify-self-center h-50 md:h-30" alt="IT And IteS" />
+                <p class="text-center font-medium text-[25px]">IT And IteS</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <p class="bg-zinc-500 text-2xl tracking-widest text-justify p-5 text-white italic font-bold">At SS Enterprises, we are committed to delivering excellence in every service we provide, ensuring that our clients can thrive in a competitive landscape.</p>
+        <div class="bg-zinc-800 grid grid-cols-1 md:grid-cols-3">
+            <div class="md:ml-25">
+                <p class="text-3xl tracking-widest text-justify pl-15 pt-20 pb-5 text-white italic font-bold underline decoration-yellow-500 decoration-2">About Us</p>
+                <p class="text-white px-15 text-[16px]">As a leading provider of Business services in India, SS ENTERPRISES garners a highly responsive structure to resonate with its client’s individual needs. Owing to our paradigm leadership...</p>
+            </div>
+            <div class="md:ml-15">
+                <p class="text-3xl tracking-widest text-justify pl-15 pt-20 pb-5 text-white italic font-bold underline decoration-yellow-500 decoration-2">Site Links</p>
+                <ul class="pl-15 list-disc list-inside">
+                    <li class="pt-1 text-white text-xl"><a href="#">Home</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">About</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">Careers</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">Blog</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">Industry</a></li>
+                    <li class="pt-1 text-white text-xl"><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="pb-12">
+                <p class="text-3xl tracking-widest text-justify pl-15 pt-20 pb-5 text-white italic font-bold underline decoration-yellow-500 decoration-2">Contact Us</p>
+                <p class="text-white px-15 text-[20px]">Tel: +91-9992774005</p>
+                <p class="text-white px-15 text-[20px]">Email: Connect@Wesse.in</p>
+                <br>
+                <img class="justify-self-center w-80 md:w-40 md:justify-self-auto md:ml-15" src="https://i.ibb.co/BVRCWczd/contact-qr.png" alt="Contact QR Code"/>
+            </div>
+        </div>
+    </div>
+    <footer class="fixed bottom-0 bg-black h-8 w-full">
+        <p class="text-yellow-300 text-center text-[12px] mt-2 md:tracking-widest md:text-[15px]">&copy; SS Enterprises 2025. All rights reserved.</p>
+    </footer>
+
     <script>
-        abc=new Array("https://i.ibb.co/McS8pxR/banner2.jpg","https://i.ibb.co/tZ9R9Lv/banner3.jpg","https://i.ibb.co/Sygwnyy/banner4.jpg","https://i.ibb.co/T8232Xn/banner1.jpg")
-        x=setInterval("f1()",2000)
-        a=0
-        function f1()
-        {
-        image1.src=abc[a]
-        a=a+1
-        if(a>3)
-        a=0
-        }
+        document.addEventListener('DOMContentLoaded', function() {
+            let lastScrollTop = 0;
+            const navbar = document.getElementById('navbar');
+            const s = document.getElementById('s');
+            
+            navbar.classList.add('bg-white');
+
+            window.addEventListener('scroll', function() {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                if (scrollTop > lastScrollTop) {
+                    if (!navbar.classList.contains('bg-yellow-300')) {
+                        navbar.classList.remove('bg-white');
+                        navbar.classList.add('bg-yellow-300');
+                        s.classList.add('-webkit-text-stroke: 3px black');
+                    }
+                } else {
+                    if (!navbar.classList.contains('bg-white')) {
+                        navbar.classList.remove('bg-yellow-300');
+                        navbar.classList.add('bg-white');
+                        s.classList.remove('-webkit-text-stroke: 3px black');
+                    }
+                }
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+            }, false);
+        });
+
+        const logo = document.getElementById("logo");
+        const threebar = document.getElementById("threebar");
+        const links = document.getElementById("links");
+        const back = document.getElementById("back");
+
+        threebar.addEventListener("click", function() {
+            logo.classList.add("hidden");
+            threebar.classList.add("hidden");
+            links.classList.remove("hidden");
+            setTimeout(() => {
+                links.classList.remove("-translate-y-full");
+            }, 150);
+        });
+
+        back.addEventListener("click", function() {
+            links.classList.add("-translate-y-full");
+            setTimeout(() => {
+                links.classList.add("hidden");
+                logo.classList.remove("hidden");
+                threebar.classList.remove("hidden");
+            }, 300);
+        });
     </script>
 </body>
 </html>
